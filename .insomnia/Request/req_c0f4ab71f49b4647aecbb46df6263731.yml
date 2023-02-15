@@ -1,0 +1,33 @@
+_id: req_c0f4ab71f49b4647aecbb46df6263731
+type: Request
+parentId: wrk_46522fcab9db4ad3b2874d43652d8160
+modified: 1676488962839
+created: 1676488962839
+url: "{{ _.api_base }}/auth/users/activate/"
+name: Activation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "beebayk0001@gmail.com",
+    	"activation_code": "726766"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: Token
+  token: d901bb1032cd1e3027d8476f488031984d84bcff
+  disabled: true
+metaSortKey: -1667888645571
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

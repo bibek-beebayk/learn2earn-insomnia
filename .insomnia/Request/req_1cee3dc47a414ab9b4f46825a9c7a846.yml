@@ -1,0 +1,29 @@
+_id: req_1cee3dc47a414ab9b4f46825a9c7a846
+type: Request
+parentId: wrk_46522fcab9db4ad3b2874d43652d8160
+modified: 1676488962841
+created: 1676488962841
+url: "{{ _.api_base }}/auth/login/"
+name: Logout
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  prefix: Token
+  token: 160c6cc9da85e06ec96e238ae1c749b82978fb05
+  disabled: false
+metaSortKey: -1667888645646
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
