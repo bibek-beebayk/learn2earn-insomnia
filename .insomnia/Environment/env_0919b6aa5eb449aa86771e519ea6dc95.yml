@@ -1,9 +1,9 @@
-_id: env_cba9b1e63ee0473d90888cf690a92018
+_id: env_0919b6aa5eb449aa86771e519ea6dc95
 type: Environment
-parentId: wrk_46522fcab9db4ad3b2874d43652d8160
-modified: 1677153456821
-created: 1676488962823
-name: Base Environment
+parentId: env_cba9b1e63ee0473d90888cf690a92018
+modified: 1677153482052
+created: 1677151958223
+name: server
 data:
   api_base: http://learn2earn.pythonanywhere.com
   token: ae306f1b88c8621ba5d72c244787a46b0f86366c
@@ -13,4 +13,4 @@ dataPropertyOrder:
     - token
 color: null
 isPrivate: false
-metaSortKey: 1667888645660
+metaSortKey: 1677151958223
